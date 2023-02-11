@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- logo -->
+    <img src="img/logo.png" alt="Star wars logo" class="logo">
+
+    <!-- people -->
+    <div id="people">
+      <img src="img/cosmonaut.svg" alt="People" class="people">
+    </div>
+
+    <!-- space-ships -->
+    <div id="starships">
+      <img src="img/rocket.svg" alt="Starships" class="starships">
+
+    </div>
+  </div>
+
+  <!-- result -->
+  <div class="main-container">
+    <!-- people result -->
+    <div class="result-container-people">
+      <table class="table table-dark table-striped" id="result-table-people">
+        <thead class="thead-people">
+
+        </thead>
+        <tbody class="tbody-people">
+
+        </tbody>
+      </table>
+      <div class="buttons">
+        <button class="btn previous-btn-people btn-lg">Previous</button>
+        <button class="btn next-btn-people btn-lg">Next</button>
+      </div>
+    </div>
+    <!-- starhips result -->
+    <div class="result-container-starhips">
+      <table class="table table-dark table-striped" id="result-table-starships">
+        <thead class="thead-starships">
+
+        </thead>
+        <tbody class="tbody-starships">
+
+        </tbody>
+      </table>
+      <div class="buttons">
+        <button class="btn previous-btn-starhips btn-lg">Previous</button>
+        <button class="btn next-btn-starhips btn-lg">Next</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="src/script.js"></script>
+</body>
+
+</html>

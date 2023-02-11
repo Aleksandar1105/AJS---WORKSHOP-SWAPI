@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  margin-top: 1rem;
+  /* border: 4px solid #fcdf2b; */
+  width: 40rem;
+  height: 20rem;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40rem;
+}
+
+.people {
+  position: absolute;
+  left: 25%;
+  top: 8%;
+  transform: translateX(-50%);
+  width: 15rem;
+}
+
+.people:hover {
+  cursor: pointer;
+}
+
+.starships {
+  position: absolute;
+  left: 75%;
+  top: 8%;
+  transform: translateX(-50%);
+  width: 15rem;
+}
+
+.starships:hover {
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.result-container-people,
+.result-container-starhips {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result-table-people,
+#result-table-starships {
+  margin: 2rem 1rem;
+  width: 57rem;
+}
+
+.btn {
+  width: 10rem;
+  margin: 3rem;
+  color: #fcdf2b;
+  border: 1px solid #fcdf2b;
+}
+
+.btn:hover {
+  color: #fcdf2b;
+}
+
+tbody {
+  color: #fcdf2b;
+}
+
+th,
+td {
+  text-align: center;
+}
