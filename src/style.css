@@ -4,12 +4,16 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: black;
 }
 
 .container {
-  margin-top: 1rem;
+  margin-top: 6rem;
   /* border: 4px solid #fcdf2b; */
   width: 40rem;
   height: 20rem;
@@ -20,13 +24,17 @@ body {
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
-  width: 40rem;
+  width: 50rem;
+}
+
+.logo:hover {
+  cursor: pointer;
 }
 
 .people {
   position: absolute;
   left: 25%;
-  top: 8%;
+  top: 12%;
   transform: translateX(-50%);
   width: 15rem;
 }
@@ -38,7 +46,7 @@ body {
 .starships {
   position: absolute;
   left: 75%;
-  top: 8%;
+  top: 12%;
   transform: translateX(-50%);
   width: 15rem;
 }
@@ -65,11 +73,14 @@ body {
 #result-table-people,
 #result-table-starships {
   margin: 2rem 1rem;
-  width: 57rem;
+  width: 92.5rem;
 }
 
 .btn {
-  width: 10rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 12rem;
+  height: 4rem;
   margin: 3rem;
   color: #fcdf2b;
   border: 1px solid #fcdf2b;
@@ -79,11 +90,19 @@ body {
   color: #fcdf2b;
 }
 
+#page-num-people,
+#page-num-starships {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fcdf2b;
+}
+
 tbody {
   color: #fcdf2b;
 }
 
 th,
 td {
+  font-size: 1.4rem;
   text-align: center;
 }
